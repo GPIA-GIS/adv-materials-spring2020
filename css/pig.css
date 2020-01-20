@@ -95,7 +95,7 @@ body.grid-mode {
   z-index: -1;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 450px), (max-height: 450px) {
   .nav {
     z-index: 1000;
   }

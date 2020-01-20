@@ -201,3 +201,25 @@ code.wrapped {
 pre.prettyprint {
     border: 0;
 }
+
+@media (max-width: 450px), (max-height: 450px) {
+    .slide h1 {
+        font-size: 80px;
+        line-height: 85px;
+    }
+
+    .slide h2 {
+        font-size: 70px;
+        line-height: 75px;
+    }
+
+    .slide p {
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    .slide li {
+        font-size: 40px;
+        line-height: 45px;
+    }
+}

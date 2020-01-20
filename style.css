@@ -1,3 +1,10 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
 html, body {
     margin: 0;
     padding: 0;
@@ -117,4 +124,20 @@ nav ul {
 nav li {
     float: left;
     padding-right: 25px;
+}
+
+@media (max-width: 450px), (max-height: 450px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    main {
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
 }

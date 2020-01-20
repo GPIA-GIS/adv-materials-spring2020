@@ -4,11 +4,11 @@ window.addEventListener('load', function() {
 
     var right = d.body.appendChild(d.createElement('div'));
     right.classList.add('nav', 'nav-right');
-    right.addEventListener('click', prev);
+    right.addEventListener('click', next);
 
     var left = d.body.appendChild(d.createElement('div'));
     left.classList.add('nav', 'nav-left');
-    left.addEventListener('click', next);
+    left.addEventListener('click', prev);
 
     function go(n) { w.scrollTo(0, w.innerHeight * (cur = n) + 1); }
     function set() {
